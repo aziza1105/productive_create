@@ -2,12 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/images.dart';
-import 'package:productive_create/core/widgets/note_item.dart';
-import 'package:productive_create/features/notes/notes/presentation/bloc/notes/notes_bloc.dart';
-import 'package:productive_create/features/tasks/data/models/status.dart';
 
+import '../../../../assets/constants/colors.dart';
+import '../../../../assets/constants/images.dart';
+import '../../../../core/widgets/note_item.dart';
+import '../../../tasks/data/models/status.dart';
+import 'bloc/notes/notes_bloc.dart';
 
 class NotesPage extends StatefulWidget {
   const NotesPage({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/images.dart';
-import 'package:productive_create/features/authentication/presentation/pages/verification/verification_page.dart';
+
+import '../../../../../assets/constants/colors.dart';
+import '../../../../../assets/constants/images.dart';
 
 class ForgotPasswordPage extends StatefulWidget {
   const ForgotPasswordPage({super.key});

@@ -44,38 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBDlkP9b1Tzmc9jDYk-9LPSLLPLBpxJXco',
-    appId: '1:1064583989729:web:ad09052b763e2c8481aaa0',
-    messagingSenderId: '1064583989729',
-    projectId: 'productive-create',
-    authDomain: 'productive-create.firebaseapp.com',
-    storageBucket: 'productive-create.appspot.com',
-    measurementId: 'G-GMR49VDCMN',
+    apiKey: 'AIzaSyDw00Nkqywa_BWMXsCoQORgROjcvQWn-8I',
+    appId: '1:983918092259:web:b3d5a8f4577fbf46e74ad6',
+    messagingSenderId: '983918092259',
+    projectId: 'productiv-349e6',
+    authDomain: 'productiv-349e6.firebaseapp.com',
+    storageBucket: 'productiv-349e6.appspot.com',
+    measurementId: 'G-BD73JRWXKZ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDrPFBrCqxBxdNY8qMSy3hNwDpSEKHPrKg',
-    appId: '1:1064583989729:android:12349289fa8a277181aaa0',
-    messagingSenderId: '1064583989729',
-    projectId: 'productive-create',
-    storageBucket: 'productive-create.appspot.com',
+    apiKey: 'AIzaSyCLX8cCZS648tFQUpWi_GdWRObpLNnz8R0',
+    appId: '1:983918092259:android:0ad8001a9a884222e74ad6',
+    messagingSenderId: '983918092259',
+    projectId: 'productiv-349e6',
+    storageBucket: 'productiv-349e6.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDMFxA3USDgSnLd55F2IIWan1avxS28ysQ',
-    appId: '1:1064583989729:ios:c4c6921821b8d04781aaa0',
-    messagingSenderId: '1064583989729',
-    projectId: 'productive-create',
-    storageBucket: 'productive-create.appspot.com',
-    iosBundleId: 'com.example.productiveCreate',
+    apiKey: 'AIzaSyDNfQepE4vIodCJt47PN3gWqn4vGRZmj4Q',
+    appId: '1:983918092259:ios:ce670480dfe7dba2e74ad6',
+    messagingSenderId: '983918092259',
+    projectId: 'productiv-349e6',
+    storageBucket: 'productiv-349e6.appspot.com',
+    iosBundleId: 'com.example.produktiv',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDMFxA3USDgSnLd55F2IIWan1avxS28ysQ',
-    appId: '1:1064583989729:ios:a1932e7b3a653fa781aaa0',
-    messagingSenderId: '1064583989729',
-    projectId: 'productive-create',
-    storageBucket: 'productive-create.appspot.com',
-    iosBundleId: 'com.example.productiveCreate.RunnerTests',
+    apiKey: 'AIzaSyDNfQepE4vIodCJt47PN3gWqn4vGRZmj4Q',
+    appId: '1:983918092259:ios:db1b996c0b8ceccfe74ad6',
+    messagingSenderId: '983918092259',
+    projectId: 'productiv-349e6',
+    storageBucket: 'productiv-349e6.appspot.com',
+    iosBundleId: 'com.example.produktiv.RunnerTests',
   );
 }

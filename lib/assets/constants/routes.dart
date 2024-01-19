@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:productive_create/assets/constants/errorPage.dart';
-import 'package:productive_create/features/authentication/presentation/login_screen.dart';
-import 'package:productive_create/features/authentication/presentation/pages/create_new_passwort/create_password_page.dart';
-import 'package:productive_create/features/authentication/presentation/pages/forgot_password/forgot_password_page.dart';
-import 'package:productive_create/features/authentication/presentation/pages/sign_up_page/sign_up.dart';
-import 'package:productive_create/features/authentication/presentation/pages/verification/verification_page.dart';
-import 'package:productive_create/features/create/presentation/creade_screen.dart';
-import 'package:productive_create/features/home/home.dart';
-import 'package:productive_create/features/on_boarding/on_boarding.dart';
-import 'package:productive_create/core/pages/splash_screen.dart';
+import '../../core/pages/error.dart';
+import '../../core/pages/splash_screen.dart';
+import '../../features/authentication/presentation/login_screen.dart';
+import '../../features/authentication/presentation/pages/create_new_passwort/create_password_page.dart';
+import '../../features/authentication/presentation/pages/forgot_password/forgot_password_page.dart';
+import '../../features/authentication/presentation/pages/sign_up_page/sign_up.dart';
+import '../../features/authentication/presentation/pages/verification/verification_page.dart';
+import '../../features/create/presentation/creade_screen.dart';
+import '../../features/home/home.dart';
+import '../../features/on_boarding/on_boarding.dart';
+
 
 class RouteGenerator {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
@@ -17,7 +18,7 @@ class RouteGenerator {
     switch (settings.name) {
       case '/':
         return MaterialPageRoute(
-          builder: (context) => const SplashScreen(), //TODO
+          builder: (context) => const SplashScreen(),
         );
        
       case "/onBoarding":

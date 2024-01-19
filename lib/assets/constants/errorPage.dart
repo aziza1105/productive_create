@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:productive_create/assets/constants/colors.dart';
+
+import 'colors.dart';
+
 
 class ErrorPage extends StatefulWidget {
   const ErrorPage({super.key});

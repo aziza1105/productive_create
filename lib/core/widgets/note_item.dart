@@ -2,10 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/images.dart';
-import 'package:productive_create/features/notes/notes/data/models/notes.dart';
-import 'package:productive_create/features/notes/notes/presentation/bloc/notes/notes_bloc.dart';
+
+import '../../assets/constants/colors.dart';
+import '../../assets/constants/images.dart';
+import '../../features/notes/notes/data/models/notes.dart';
+import '../../features/notes/notes/presentation/bloc/notes/notes_bloc.dart';
+
 
 class NoteItem extends StatelessWidget {
   final NoteModel note;

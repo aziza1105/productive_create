@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/core/widgets/w_button.dart';
-import 'package:productive_create/core/widgets/w_divider.dart';
-import 'package:productive_create/features/authentication/presentation/widgets/social_media_login_button.dart';
 
-
+import '../../../../../assets/constants/colors.dart';
+import '../../../../../assets/constants/icons.dart';
+import '../../../../../core/widgets/w_button.dart';
+import '../../../../../core/widgets/w_divider.dart';
+import '../../widgets/social_media_login_button.dart';
 
 class SignUp extends StatefulWidget {
   static Route route() => MaterialPageRoute(

@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/features/drawer/drawer.dart';
-import 'package:productive_create/features/notes/notes/presentation/notes_screen.dart';
-import 'package:productive_create/features/tasks/data/models/status.dart';
-import 'package:productive_create/features/tasks/data/models/task.dart';
-import 'package:productive_create/features/tasks/presentation/bloc/task_bloc.dart';
 
 import '../../../assets/constants/colors.dart';
+import '../../../assets/constants/icons.dart';
+import '../../drawer/drawer.dart';
+import '../../notes/notes/presentation/notes_screen.dart';
+import '../data/models/status.dart';
+import '../data/models/task.dart';
+import 'bloc/task_bloc.dart';
 
 class TaskScreen extends StatefulWidget {
   const TaskScreen({super.key});

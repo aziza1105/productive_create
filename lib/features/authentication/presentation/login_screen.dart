@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/core/widgets/w_button.dart';
-import 'package:productive_create/core/widgets/w_fade.dart';
-import 'package:productive_create/features/authentication/presentation/bloc/bloc/authentication_bloc.dart';
 import 'package:productive_create/features/authentication/presentation/widgets/social_media_login_button.dart';
 
 import '../../../assets/constants/colors.dart';
 import '../../../assets/constants/icons.dart';
+import '../../../core/widgets/w_button.dart';
 import '../../../core/widgets/w_divider.dart';
+import '../../../core/widgets/w_fade.dart';
+import 'bloc/bloc/authentication_bloc.dart';
 
 class LoginScreen extends StatefulWidget {
   static Route route() => MaterialPageRoute(

@@ -4,13 +4,15 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
 import 'package:productive_create/features/create/presentation/pages/add_location.dart';
 import 'package:productive_create/features/create/presentation/pages/select_data_time.dart';
 import 'package:productive_create/features/create/presentation/pages/select_icon_bottom_sheet.dart';
-import 'package:productive_create/features/tasks/data/models/priority.dart';
-import 'package:productive_create/features/tasks/presentation/bloc/task_bloc.dart';
+
+import '../../../assets/constants/colors.dart';
+import '../../../assets/constants/icons.dart';
+import '../../tasks/data/models/priority.dart';
+import '../../tasks/presentation/bloc/task_bloc.dart';
+
 
 class CreateScreen extends StatefulWidget {
   const CreateScreen({super.key});

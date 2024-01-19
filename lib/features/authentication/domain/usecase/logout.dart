@@ -1,6 +1,7 @@
-import 'package:productive_create/core/either/either.dart';
-import 'package:productive_create/core/failure/failure.dart';
-import 'package:productive_create/core/usecase/usecase.dart';
+
+import '../../../../core/either/either.dart';
+import '../../../../core/failure/failure.dart';
+import '../../../../core/usecase/usecase.dart';
 import '../repository/authentication.dart';
 
 class LogoutUseCase implements UseCase<void, NoParams> {

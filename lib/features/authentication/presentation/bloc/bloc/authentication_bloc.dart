@@ -3,13 +3,14 @@ import 'dart:ui';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:productive_create/core/failure/failure.dart';
-import 'package:productive_create/core/usecase/usecase.dart';
-import 'package:productive_create/features/authentication/data/data_source/remote.dart';
-import 'package:productive_create/features/authentication/data/repository/authentication.dart';
-import 'package:productive_create/features/authentication/domain/entity/authenticated_user.dart';
-import 'package:productive_create/features/authentication/domain/usecase/authenticate.dart';
-import 'package:productive_create/features/authentication/domain/usecase/logout.dart';
+
+import '../../../../../core/failure/failure.dart';
+import '../../../../../core/usecase/usecase.dart';
+import '../../../data/data_source/remote.dart';
+import '../../../data/repository/authentication.dart';
+import '../../../domain/entity/authenticated_user.dart';
+import '../../../domain/usecase/authenticate.dart';
+import '../../../domain/usecase/logout.dart';
 
 part 'authentication_event.dart';
 part 'authentication_state.dart';

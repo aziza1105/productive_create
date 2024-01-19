@@ -1,7 +1,7 @@
-import 'package:productive_create/core/either/either.dart';
-import 'package:productive_create/features/authentication/domain/entity/authenticated_user.dart';
 
+import '../../../../core/either/either.dart';
 import '../../../../core/failure/failure.dart';
+import '../entity/authenticated_user.dart';
 
 abstract class AuthenticationRepository {
   Future<Either<Failure, AuthenticatedUserEntity>> getUser();

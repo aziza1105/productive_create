@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:productive_create/features/authentication/domain/entity/authenticated_user.dart';
+
+import '../../domain/entity/authenticated_user.dart';
 
 class AuthenticatedUserModel extends AuthenticatedUserEntity{
 

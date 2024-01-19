@@ -3,9 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/features/tasks/presentation/bloc/task_bloc.dart';
+
+import '../../../../assets/constants/colors.dart';
+import '../../../../assets/constants/icons.dart';
+import '../../../tasks/presentation/bloc/task_bloc.dart';
+
 
 Future<dynamic> SelectIcon(BuildContext context) {
   return showModalBottomSheet(

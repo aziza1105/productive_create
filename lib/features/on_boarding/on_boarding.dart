@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/assets/constants/images.dart';
-import 'package:productive_create/core/injector/injector.dart';
-import 'package:productive_create/features/authentication/presentation/login_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../assets/constants/colors.dart';
+import '../../assets/constants/icons.dart';
+import '../../assets/constants/images.dart';
+import '../../core/injector/injector.dart';
+import '../authentication/presentation/login_screen.dart';
 
 class OnBoarding extends StatefulWidget {
   const OnBoarding({super.key});

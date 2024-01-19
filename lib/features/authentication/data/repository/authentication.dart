@@ -1,11 +1,11 @@
-import 'package:productive_create/core/either/either.dart';
-import 'package:productive_create/core/exception/exception.dart';
-import 'package:productive_create/core/failure/failure.dart';
-import 'package:productive_create/features/authentication/data/models/authenticated_user.dart';
-import 'package:productive_create/features/authentication/domain/entity/authenticated_user.dart';
-import 'package:productive_create/features/authentication/domain/repository/authentication.dart';
 
+import '../../../../core/either/either.dart';
+import '../../../../core/exception/exception.dart';
+import '../../../../core/failure/failure.dart';
+import '../../domain/entity/authenticated_user.dart';
+import '../../domain/repository/authentication.dart';
 import '../data_source/remote.dart';
+import '../models/authenticated_user.dart';
 
 class AuthenticationRepositoryImpl implements AuthenticationRepository {
   final AuthenticationRemoteDataSource _dataSource;

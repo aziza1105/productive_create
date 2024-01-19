@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/assets/constants/images.dart';
+
+import '../../../../../assets/constants/colors.dart';
+import '../../../../../assets/constants/icons.dart';
+import '../../../../../assets/constants/images.dart';
 
 class CreatePasswort extends StatefulWidget {
   const CreatePasswort({super.key});

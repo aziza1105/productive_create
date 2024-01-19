@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:productive_create/features/authentication/domain/entity/authenticated_user.dart';
+
+import '../../domain/entity/authenticated_user.dart';
 
 class AuthenticatedUser extends InheritedWidget {
   final AuthenticatedUserEntity? user;

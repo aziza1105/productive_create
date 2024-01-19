@@ -2,11 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/core/injector/injector.dart';
-import 'package:productive_create/features/authentication/presentation/bloc/bloc/authentication_bloc.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../assets/constants/colors.dart';
+import '../../assets/constants/icons.dart';
+import '../../features/authentication/presentation/bloc/bloc/authentication_bloc.dart';
+import '../injector/injector.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

@@ -1,9 +1,7 @@
-import 'package:productive_create/core/either/either.dart';
-
-import 'package:productive_create/core/failure/failure.dart';
-import 'package:productive_create/features/authentication/domain/entity/authenticated_user.dart';
-
+import '../../../../core/either/either.dart';
+import '../../../../core/failure/failure.dart';
 import '../../../../core/usecase/usecase.dart';
+import '../entity/authenticated_user.dart';
 import '../repository/authentication.dart';
 
 class AuthenticateUseCase

@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:productive_create/features/notes/notes/data/repository/notes.dart';
-import 'package:productive_create/features/tasks/data/models/status.dart';
 
+import '../../../../../tasks/data/models/status.dart';
 import '../../../data/models/notes.dart';
+import '../../../data/repository/notes.dart';
 
 part 'notes_event.dart';
 part 'notes_state.dart';

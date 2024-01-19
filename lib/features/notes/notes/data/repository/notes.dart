@@ -1,5 +1,5 @@
-import 'package:productive_create/features/notes/notes/data/mock_data.dart';
 
+import '../mock_data.dart';
 import '../models/notes.dart';
 
 class NoteRepository {

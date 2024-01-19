@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:productive_create/features/tasks/data/models/priority.dart';
+import '../models/priority.dart';
 
 
 final _random = Random();

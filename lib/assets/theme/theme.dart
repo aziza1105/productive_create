@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:productive_create/assets/constants/colors.dart';
+
+import '../constants/colors.dart';
 
 class AppTheme {
   static darkTheme() => ThemeData(

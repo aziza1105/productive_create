@@ -2,9 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/assets/constants/images.dart';
+
+import '../../../../assets/constants/colors.dart';
+import '../../../../assets/constants/icons.dart';
+import '../../../../assets/constants/images.dart';
 
 Future<dynamic> addLocation(BuildContext context) {
   return showModalBottomSheet(

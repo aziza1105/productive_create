@@ -2,8 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
+
+import '../../../../assets/constants/colors.dart';
+import '../../../../assets/constants/icons.dart';
 
 class AllPage extends StatelessWidget {
   const AllPage({super.key});

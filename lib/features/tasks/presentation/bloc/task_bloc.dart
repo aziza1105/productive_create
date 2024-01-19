@@ -2,16 +2,16 @@ import 'dart:core';
 
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/icons.dart';
-import 'package:productive_create/features/tasks/data/models/priority.dart';
-import 'package:productive_create/features/tasks/data/models/status.dart';
-import 'package:productive_create/features/tasks/data/models/task.dart';
-import 'package:flutter/foundation.dart';
-import 'package:productive_create/features/tasks/data/repository/task.dart';
 
+import '../../../../assets/constants/colors.dart';
+import '../../../../assets/constants/icons.dart';
+import '../../data/models/priority.dart';
+import '../../data/models/status.dart';
+import '../../data/models/task.dart';
+import '../../data/repository/task.dart';
 part 'task_event.dart';
 part 'task_state.dart';
 

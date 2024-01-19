@@ -6,15 +6,13 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gap/gap.dart';
-import 'package:productive_create/features/authentication/presentation/bloc/bloc/authentication_bloc.dart';
-import 'package:productive_create/features/create/presentation/creade_screen.dart';
-
-import 'package:productive_create/features/home/navbar.dart';
 import 'package:productive_create/features/home/widgets/modal_model.dart';
-import 'package:productive_create/features/tasks/presentation/bloc/task_bloc.dart';
-
 import '../../assets/constants/colors.dart';
 import '../../assets/constants/icons.dart';
+import '../authentication/presentation/bloc/bloc/authentication_bloc.dart';
+import '../create/presentation/creade_screen.dart';
+import '../tasks/presentation/bloc/task_bloc.dart';
+import 'navbar.dart';
 import 'navigator.dart';
 import 'widgets/nav_bar_item.dart';
 

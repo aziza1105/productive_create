@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:pinput/pinput.dart';
-import 'package:productive_create/assets/constants/colors.dart';
-import 'package:productive_create/assets/constants/images.dart';
-import 'package:productive_create/features/authentication/presentation/pages/create_new_passwort/create_password_page.dart';
+
+import '../../../../../assets/constants/colors.dart';
+import '../../../../../assets/constants/images.dart';
 
 class VerificationPage extends StatefulWidget {
   const VerificationPage({super.key});

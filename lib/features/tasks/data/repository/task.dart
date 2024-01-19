@@ -1,7 +1,5 @@
-import 'dart:ui';
-
-import 'package:productive_create/features/tasks/data/data_source/remote.dart';
-import 'package:productive_create/features/tasks/data/models/task.dart';
+import '../data_source/remote.dart';
+import '../models/task.dart';
 
 class TaskRepository {
   final TaskRemoteDataSource taskRemoteDataSource;
